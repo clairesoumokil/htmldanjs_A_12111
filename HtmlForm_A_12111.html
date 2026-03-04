@@ -16,6 +16,33 @@
 
   <form onsubmit="return validateForm()">
     <table cellspacing="4" cellpadding="4">
+      <p> Nama Mahasiswa
+        <input type text="text">
+      </p>
+      
+      <p> 
+        Jenis Kelamin
+        <input type="radio" id="Laki-laki" name="gender" value="male"
+        <label for="male">Laki-laki</label>
+
+        <input type="radio" id="female" name="gender" value="female"
+        <label for="female">Perempuan</label>
+      </p>
+      
+      <p>
+        <label for="prodi">Program Studi </label>
+        <select name="prodi" id "prodi">
+          <option value=" ">Program Studi</option>
+          <option value="informatika" >Informatika</option>
+          <option value="teknik industri">Teknik Industri</option>
+          <option value="sistem informasi">Sistem Informasi</option>
+        </select>
+      </p>
+
+      <p>
+        Nomor Telepon
+        <input type="number" id="noTlp" name="noTlp" required>
+      </p>
       <!-- TODO: Tambahkan field input teks untuk Nama Mahasiswa dengan tipe teks dan WAJIB DIISI. -->
 
       <!-- TODO: Tambahkan field radio button untuk Jenis Kelamin (Laki-laki dan Perempuan) dan WAJIB DIISI -->
